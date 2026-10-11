@@ -90,6 +90,23 @@ As capturas de tela da pergunta, do início da resposta e das fontes abertas est
 Compare as fontes deste caderno sobre a arquitetura e o funcionamento dos agentes de inteligência artificial. Identifique os pontos de concordância, as diferenças de abordagem e as limitações das informações disponíveis. Sustente cada conclusão com citações verificáveis. Diferencie fatos explícitos de inferências e não invente divergências quando as fontes não apresentarem evidências suficientes.
 
 **Objetivo do teste:** avaliar a capacidade de comparar fontes, identificar concordâncias e diferenças sustentadas por evidências e reconhecer limitações.
+#### Resumo da resposta obtida
+
+A resposta compara diferentes fontes sobre arquitetura e funcionamento de agentes de Inteligência Artificial, organizando os resultados em cinco partes: pontos de concordância, diferenças de abordagem, limitações técnicas, distinção entre fatos explícitos e inferências e limitações das fontes consultadas.
+
+Entre os pontos de concordância, destaca a combinação entre modelo de linguagem (LLM) e estrutura de suporte (*harness*), o ciclo de execução do agente, o uso de ferramentas e conectores, a memória e os mecanismos de segurança.
+
+A comparação também identifica diferenças entre abordagens baseadas em *workflows* predefinidos e arquiteturas com agentes autônomos ou múltiplos agentes. Além disso, apresenta diferentes formas de organizar agentes, habilidades (*skills*) e subagentes, bem como alternativas para armazenamento e recuperação de informações.
+
+A resposta aponta desafios como alucinações, limites da janela de contexto, latência, vulnerabilidades de segurança e dificuldades de avaliação em produção. Por fim, reconhece que a terminologia e as arquiteturas variam entre as fontes e que a organização apresentada é uma síntese didática, não uma taxonomia universal.
+
+#### Verificação das fontes
+
+A resposta apresenta citações numeradas associadas às afirmações e utiliza fontes técnicas e materiais explicativos presentes no caderno. A correspondência entre cada afirmação e sua fonte deve ser conferida diretamente no NotebookLM. Os números das citações, isoladamente, não identificam as fontes fora do contexto do caderno.
+
+#### Evidência
+
+A captura de tela da pergunta e da resposta, com as citações apresentadas pelo NotebookLM, está registrada na pasta `evidencias` deste repositório.
 
 As capturas de tela dos testes documentam as perguntas e respostas produzidas no NotebookLM. As citações devem ser verificadas nas fontes originais para confirmar que sustentam as afirmações correspondentes.
 
