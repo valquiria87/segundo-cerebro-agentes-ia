@@ -138,6 +138,7 @@ A resposta compara diferentes abordagens arquiteturais e apresenta conclusões a
 A captura de tela da pergunta e da resposta, com as citações apresentadas pelo NotebookLM, está registrada na pasta `evidencias` deste repositório.
 
 As capturas de tela dos testes documentam as perguntas e respostas produzidas no NotebookLM. As citações devem ser verificadas nas fontes originais para confirmar que sustentam as afirmações correspondentes.
+**Limite da verificação das citações:** as evidências registradas confirmam a abertura das fontes identificadas nas citações 4 e 10. A verificação individual de todas as afirmações e de todas as fontes citadas na resposta não foi documentada integralmente. Por isso, o resumo apresenta os principais resultados da análise do NotebookLM sem afirmar que cada conclusão foi validada de forma independente.
 
 ## 🧰 Materiais produzidos
 
