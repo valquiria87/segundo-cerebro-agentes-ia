@@ -60,6 +60,30 @@ As instruções definidas estabelecem que o caderno deve:
 Com base exclusivamente nas fontes deste caderno, explique o que é um agente de inteligência artificial e apresente seus principais componentes. Organize a resposta em tópicos numerados. Explique a função de cada componente em português brasileiro claro e inclua citações das fontes que sustentem cada explicação. Diferencie as informações explicitamente apresentadas pelas fontes das inferências. Se as fontes não forem suficientes para confirmar alguma informação, declare essa limitação. Não invente informações nem utilize conhecimento externo para preencher lacunas.
 
 **Objetivo do teste:** verificar a clareza das explicações, a fundamentação por citações e a distinção entre informações explícitas e inferências.
+#### Resumo da resposta obtida
+
+A resposta define um agente de Inteligência Artificial como um sistema orientado a objetivos que pode interpretar uma tarefa, planejar etapas, utilizar ferramentas e revisar suas ações durante a execução. Ela apresenta a relação **Agente de IA = LLM + Harness** como uma síntese arquitetural: o modelo de linguagem interpreta o contexto e seleciona ações, enquanto a estrutura de suporte organiza elementos como instruções, ferramentas, arquivos, memória e permissões.
+
+A resposta organiza os principais componentes em dez categorias: modelo de linguagem, estrutura de suporte (*harness*), ciclo de execução (*agent loop*), planejamento e raciocínio, ferramentas e conectores, memória, arquivos de contexto e diretrizes, habilidades reutilizáveis (*skills*), mecanismos de segurança (*guardrails*) e orquestração com subagentes.
+
+Essa organização é uma síntese pedagógica de diferentes fontes do caderno, e não uma lista universal de componentes obrigatórios para todo agente. A própria resposta reconhece que a arquitetura varia conforme a complexidade e a finalidade do sistema.
+
+#### Fontes citadas e verificação
+
+Na resposta do NotebookLM, a relação entre LLM e *harness* foi associada às seguintes fontes:
+
+* **Agents — Docs by LangChain:** documentação técnica sobre agentes no ecossistema LangChain.
+* **Arquitetura, Implementação e Segurança de Agentes de Inteligência Artificial Generativa: Um Guia Técnico para Engenharia e Desenvolvimento Profissional:** material técnico incluído no caderno.
+
+A resposta também apresenta citações para sustentar as explicações sobre planejamento, memória, ferramentas, segurança e orquestração. A correspondência entre cada afirmação e sua fonte deve ser conferida nas citações originais do NotebookLM, pois os números exibidos na resposta dependem do contexto do caderno.
+
+#### Fatos explícitos e inferências
+
+A resposta distingue informações atribuídas às fontes de inferências resultantes da organização dos conteúdos. Entre as inferências, destaca-se a reunião dos conceitos em dez categorias arquiteturais. Analogias como comparar o LLM a um cérebro são recursos didáticos, não descrições técnicas literais.
+
+#### Evidências
+
+As capturas de tela da pergunta, do início da resposta e das fontes abertas estão disponíveis na pasta `evidencias` deste repositório.
 
 ### 2. Comparação entre fontes sobre arquitetura e funcionamento
 
