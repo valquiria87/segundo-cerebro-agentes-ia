@@ -14,7 +14,7 @@ O caderno foi desenvolvido no NotebookLM e reúne **41 fontes** sobre agentes de
 
 A pesquisa foi ampliada com recomendações do Deep Research. As fontes foram revisadas e as duplicadas foram removidas.
 
-A base de conhecimento aborda temas como:
+Os principais temas estudados incluem:
 
 * Fundamentos dos agentes de Inteligência Artificial.
 * Arquitetura e funcionamento dos agentes.
@@ -27,13 +27,13 @@ A base de conhecimento aborda temas como:
 
 ## 🔎 Critérios de seleção e confiabilidade das fontes
 
-A seleção das fontes considerou os seguintes critérios:
+A seleção das fontes considerou:
 
-* **Autoria e procedência:** preferência por documentação oficial, publicações técnicas e materiais de especialistas ou organizações reconhecidas na área.
+* **Autoria e procedência:** documentação oficial, publicações técnicas e materiais de especialistas ou organizações reconhecidas.
 * **Relevância:** relação direta com os conceitos, a arquitetura ou as aplicações dos agentes de Inteligência Artificial.
-* **Verificabilidade:** possibilidade de acessar o conteúdo original e conferir as informações apresentadas.
-* **Diversidade de abordagens:** utilização de materiais em diferentes formatos e perspectivas para ampliar a compreensão do tema.
-* **Comparação crítica:** análise das concordâncias, diferenças e limitações das informações disponíveis.
+* **Verificabilidade:** possibilidade de acessar o conteúdo original e conferir as informações.
+* **Diversidade de abordagens:** uso de diferentes formatos e perspectivas.
+* **Comparação crítica:** análise de concordâncias, diferenças e limitações.
 
 A inclusão de uma fonte não significa que todas as suas afirmações foram consideradas verdadeiras. As informações devem ser verificadas em seu contexto original e comparadas com outras evidências quando necessário.
 
@@ -41,17 +41,17 @@ A inclusão de uma fonte não significa que todas as suas afirmações foram con
 
 O NotebookLM foi configurado para atuar como um tutor especializado em agentes de Inteligência Artificial, com foco em fundamentos, arquitetura, ferramentas, memória, planejamento, avaliação e aplicações práticas.
 
-As instruções definidas para o caderno estabelecem que ele deve:
+As instruções definidas estabelecem que o caderno deve:
 
 * Responder em português brasileiro claro e tecnicamente preciso.
-* Priorizar as fontes disponíveis no caderno e indicar as referências que sustentam as explicações.
+* Priorizar as fontes disponíveis e indicar as referências que sustentam as explicações.
 * Organizar assuntos complexos em etapas e utilizar exemplos práticos.
-* Explicar os termos técnicos em inglês quando necessário, preservando o significado original.
+* Explicar termos técnicos em inglês quando necessário, preservando seu significado.
 * Diferenciar informações explicitamente apresentadas pelas fontes de conclusões inferidas.
-* Identificar divergências entre as fontes quando houver evidências suficientes.
-* Declarar as limitações da base de conhecimento quando as fontes não permitirem confirmar uma informação.
+* Identificar divergências quando houver evidências suficientes.
+* Declarar limitações quando as fontes não permitirem confirmar uma informação.
 * Evitar inventar informações ou preencher lacunas com afirmações sem sustentação.
-* Revisar as respostas para reduzir erros de tradução, repetições, trechos incompletos e problemas de formatação.
+* Revisar as respostas para reduzir erros de tradução, repetições e problemas de formatação.
 
 ## 💬 Perguntas utilizadas nos testes
 
@@ -59,26 +59,33 @@ As instruções definidas para o caderno estabelecem que ele deve:
 
 Com base exclusivamente nas fontes deste caderno, explique o que é um agente de inteligência artificial e apresente seus principais componentes. Organize a resposta em tópicos numerados. Explique a função de cada componente em português brasileiro claro e inclua citações das fontes que sustentem cada explicação. Diferencie as informações explicitamente apresentadas pelas fontes das inferências. Se as fontes não forem suficientes para confirmar alguma informação, declare essa limitação. Não invente informações nem utilize conhecimento externo para preencher lacunas.
 
-**Objetivo do teste:** verificar a capacidade de explicar os conceitos e os componentes dos agentes com clareza, sustentar as afirmações com citações e distinguir informações explícitas de inferências.
+**Objetivo do teste:** verificar a clareza das explicações, a fundamentação por citações e a distinção entre informações explícitas e inferências.
 
 ### 2. Comparação entre fontes sobre arquitetura e funcionamento
 
 Compare as fontes deste caderno sobre a arquitetura e o funcionamento dos agentes de inteligência artificial. Identifique os pontos de concordância, as diferenças de abordagem e as limitações das informações disponíveis. Sustente cada conclusão com citações verificáveis. Diferencie fatos explícitos de inferências e não invente divergências quando as fontes não apresentarem evidências suficientes.
 
-**Objetivo do teste:** avaliar a capacidade de comparar diferentes materiais, identificar concordâncias e diferenças sustentadas por evidências e reconhecer as limitações das informações disponíveis.
+**Objetivo do teste:** avaliar a capacidade de comparar fontes, identificar concordâncias e diferenças sustentadas por evidências e reconhecer limitações.
 
-As respostas foram registradas em capturas de tela como evidência dos testes realizados no NotebookLM. A verificação das citações nas fontes originais é importante para confirmar que cada referência sustenta a afirmação correspondente.
+As capturas de tela dos testes documentam as perguntas e respostas produzidas no NotebookLM. As citações devem ser verificadas nas fontes originais para confirmar que sustentam as afirmações correspondentes.
 
 ## 🧰 Materiais produzidos
 
-Durante o desenvolvimento do projeto, foram gerados materiais de estudo no NotebookLM:
+Os materiais gerados no NotebookLM incluem mapa mental, apresentação de slides, visão geral em vídeo e visão geral em áudio.
 
-* Mapa mental.
-* Apresentação de slides.
-* Visão geral em vídeo.
-* Visão geral em áudio.
+### Mapa mental
 
-Esses materiais complementam a base de conhecimento e oferecem diferentes formas de revisar os conceitos estudados.
+[Visualizar ou baixar o mapa mental (PNG)](./NotebookLM%20Mind%20Map.png)
+
+### Apresentação
+
+[Visualizar ou baixar a apresentação (PDF)](./Engenharia_de_Agentes_de_IA.pdf)
+
+### Evidências
+
+[Consultar a pasta de evidências](./evidencias/)
+
+A pasta reúne capturas de tela dos materiais gerados no Studio e dos testes realizados com perguntas e respostas fundamentadas em fontes.
 
 ## 🛠️ Ferramentas utilizadas
 
@@ -98,4 +105,4 @@ https://github.com/valquiria87/segundo-cerebro-agentes-ia
 
 Este projeto constitui uma base de conhecimento em construção sobre agentes de Inteligência Artificial. Seu propósito é apoiar o aprendizado por meio de fontes consultáveis, perguntas estruturadas, respostas fundamentadas e materiais de estudo complementares.
 
-O uso de citações e a comparação entre fontes ajudam a tornar o processo de aprendizagem mais verificável. Ainda assim, as respostas geradas por IA precisam ser avaliadas criticamente, e as limitações das fontes devem ser explicitadas sempre que não houver evidências suficientes para sustentar uma conclusão.
+O uso de citações e a comparação entre fontes ajudam a tornar o processo de aprendizagem mais verificável. As respostas geradas por IA devem ser avaliadas criticamente, e as limitações das fontes devem ser explicitadas sempre que não houver evidências suficientes para sustentar uma conclusão.
