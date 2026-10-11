@@ -36,6 +36,13 @@ A seleção das fontes considerou:
 * **Comparação crítica:** análise de concordâncias, diferenças e limitações.
 
 A inclusão de uma fonte não significa que todas as suas afirmações foram consideradas verdadeiras. As informações devem ser verificadas em seu contexto original e comparadas com outras evidências quando necessário.
+### Exemplos de aplicação dos critérios
+
+* **Agents — Docs by LangChain:** documentação técnica oficial do projeto LangChain, utilizada para consultar conceitos e mecanismos de implementação de agentes. Sua procedência oficial permite verificar o funcionamento documentado no próprio ecossistema, sem significar que todas as recomendações sejam universais.
+* **Documentação oficial do Model Context Protocol (MCP):** utilizada para verificar a finalidade e os conceitos do protocolo de integração entre aplicações de IA e ferramentas. A documentação do projeto é uma fonte primária para suas especificações.
+* **Materiais técnicos e conteúdos educacionais:** utilizados para ampliar a compreensão, conhecer outras abordagens e comparar interpretações. Suas afirmações foram consideradas em conjunto com outras fontes, observando autoria, contexto e possibilidade de verificação.
+
+Esses exemplos mostram que a confiabilidade foi avaliada considerando a procedência e a adequação da fonte ao tipo de afirmação analisada, e não apenas a presença de linguagem técnica ou a reputação do autor.
 
 ## 🤖 Instruções de comportamento do caderno
 
@@ -52,6 +59,21 @@ As instruções definidas estabelecem que o caderno deve:
 * Declarar limitações quando as fontes não permitirem confirmar uma informação.
 * Evitar inventar informações ou preencher lacunas com afirmações sem sustentação.
 * Revisar as respostas para reduzir erros de tradução, repetições e problemas de formatação.
+### Texto integral das instruções
+
+**Instrução principal**
+
+Atue como um tutor especializado em agentes de Inteligência Artificial, com foco em fundamentos, arquitetura, ferramentas, memória, planejamento, avaliação e aplicações práticas.
+
+Responda em português claro, explicando os termos técnicos em inglês quando necessário. Baseie as respostas prioritariamente nas fontes deste caderno e indique as fontes que sustentam cada explicação.
+
+Organize assuntos complexos em etapas e use exemplos práticos. Quando as fontes não forem suficientes, informe essa limitação em vez de inventar respostas. Se houver divergências entre as fontes, apresente-as claramente.
+
+Ajude-me a compreender os conceitos, verificar informações e desenvolver meu próprio raciocínio, em vez de apenas fornecer respostas prontas.
+
+**Instrução adicional de qualidade do texto**
+
+Qualidade do texto: escreva em português brasileiro natural, correto e tecnicamente preciso. Não traduza literalmente termos técnicos em inglês quando isso prejudicar o significado; mantenha o termo original e explique-o em português na primeira ocorrência. Revise a resposta para eliminar palavras sem sentido, trechos incompletos, repetições e erros de formatação. Não apresente uma afirmação como fato explícito se ela for uma inferência. Preserve as citações junto às afirmações que elas sustentam.
 
 ## 💬 Perguntas utilizadas nos testes
 
@@ -70,12 +92,14 @@ Essa organização é uma síntese pedagógica de diferentes fontes do caderno, 
 
 #### Fontes citadas e verificação
 
-Na resposta do NotebookLM, a relação entre LLM e *harness* foi associada às seguintes fontes:
+A resposta do NotebookLM utilizou citações vinculadas às fontes do caderno para fundamentar as explicações sobre a arquitetura e os componentes dos agentes de Inteligência Artificial.
 
-* **Agents — Docs by LangChain:** documentação técnica sobre agentes no ecossistema LangChain.
-* **Arquitetura, Implementação e Segurança de Agentes de Inteligência Artificial Generativa: Um Guia Técnico para Engenharia e Desenvolvimento Profissional:** material técnico incluído no caderno.
+As fontes identificadas nas evidências foram:
 
-A resposta também apresenta citações para sustentar as explicações sobre planejamento, memória, ferramentas, segurança e orquestração. A correspondência entre cada afirmação e sua fonte deve ser conferida nas citações originais do NotebookLM, pois os números exibidos na resposta dependem do contexto do caderno.
+* **Agents — Docs by LangChain:** documentação técnica oficial do LangChain sobre agentes, utilizada como referência para conceitos e mecanismos de funcionamento no ecossistema LangChain.
+* **Arquitetura, Implementação e Segurança de Agentes de Inteligência Artificial Generativa: Um Guia Técnico para Engenharia e Desenvolvimento Profissional:** material técnico utilizado para estudar aspectos arquiteturais, implementação e segurança de agentes de IA.
+
+A resposta também apresenta citações relacionadas a planejamento, memória, ferramentas, mecanismos de segurança e orquestração. A associação específica entre cada afirmação e sua fonte deve ser conferida nas citações originais do NotebookLM. A identificação de uma fonte no caderno, por si só, não comprova todas as afirmações atribuídas a ela.
 
 #### Fatos explícitos e inferências
 
@@ -100,9 +124,14 @@ A comparação também identifica diferenças entre abordagens baseadas em *work
 
 A resposta aponta desafios como alucinações, limites da janela de contexto, latência, vulnerabilidades de segurança e dificuldades de avaliação em produção. Por fim, reconhece que a terminologia e as arquiteturas variam entre as fontes e que a organização apresentada é uma síntese didática, não uma taxonomia universal.
 
-#### Verificação das fontes
+#### Fontes citadas e verificação
 
-A resposta apresenta citações numeradas associadas às afirmações e utiliza fontes técnicas e materiais explicativos presentes no caderno. A correspondência entre cada afirmação e sua fonte deve ser conferida diretamente no NotebookLM. Os números das citações, isoladamente, não identificam as fontes fora do contexto do caderno.
+As evidências da resposta do NotebookLM permitem identificar as seguintes fontes abertas durante a verificação das citações:
+
+* **Arquitetura, Implementação e Segurança de Agentes de Inteligência Artificial Generativa: Um Guia Técnico para Engenharia e Desenvolvimento Profissional:** material técnico sobre arquitetura, implementação e segurança de agentes de IA.
+* **Agents — Docs by LangChain:** documentação técnica oficial sobre agentes no ecossistema LangChain.
+
+A resposta compara diferentes abordagens arquiteturais e apresenta conclusões apoiadas em citações do caderno. As duas fontes acima foram confirmadas nas evidências; elas não devem ser consideradas uma lista exaustiva de todas as fontes citadas na resposta. Para verificar a sustentação de cada conclusão, é necessário consultar as citações correspondentes no NotebookLM.
 
 #### Evidência
 
